@@ -1,6 +1,6 @@
 {
   "name": "mcp-memory-graph",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "MCP server for pattern-matching document type inference",
   "type": "module",
   "main": "build/index.js",
@@ -10,7 +10,13 @@
     "start:http": "MCP_TRANSPORT=http node build/index.js",
     "test": "node --test build/test/server.test.js"
   },
-  "keywords": ["mcp", "memory", "graph", "pattern-matching", "type-inference"],
+  "keywords": [
+    "mcp",
+    "memory",
+    "graph",
+    "pattern-matching",
+    "type-inference"
+  ],
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.27.1",
